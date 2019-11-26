@@ -1,4 +1,4 @@
-## Available Scripts
+## Proyecto TodoList del Curso React + Redux 
 
 In the project directory, you can run:
 
