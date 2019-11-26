@@ -1,0 +1,19 @@
+.taskItem{
+  position: relative;
+  text-align: left;
+  background: #166b94;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+}
+.AddTaskUI input{
+  padding-left: 10px;
+}
+.AddTaskUI button{
+  font-size: 12px;
+}
+.listizia_botton_close{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

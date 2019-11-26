@@ -1,0 +1,75 @@
+html{
+  height: 100%;
+}
+body{
+  background: #166b94;
+  height: 100%;
+}
+
+.tdl-main-section {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--backgroundBlue);
+}
+/* .tdl-main-section {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--backgroundBlue);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.tdl-add_list_button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 7%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.tdl-add_list_button:active {
+  border: 1px solid var(--backgroundBlue);
+}
+
+.tdl-main_title {
+  padding: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--headerColor);
+}
+
+.tdl-main_title-link {
+  text-decoration: none;
+}
+
+.listizia-app_create-list{
+  position: relative;
+  color: white;
+  padding: 15px 0;
+}
+.form-control-listizia input{
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  padding-left: 11px;
+  color: #282c34d6;
+}
+.form-control-listizia button{
+  height: 47px;
+}
+
+
+.listizia-app_create-list{
+  background-color: #282c34;
+
+}
+
+.delete-padding-left{
+  padding-left: 0;
+}
