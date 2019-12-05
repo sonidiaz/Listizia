@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import List from "./List";
+import store from '../state/store'
+import Provider from 'react-redux'
 
 import "../styles/App.css";
 
