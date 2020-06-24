@@ -1,3 +1,9 @@
 export default {
-  task: []
+    tasks: [
+        {
+          list: "Tuesday",
+          completed: true,
+          order: 0
+        }
+      ]
 }

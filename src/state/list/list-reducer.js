@@ -1,15 +1,17 @@
-import {ADD_LIST} from './list-action-creators'
-import listInitialState from './list-initial-state'
+import {CREATE_NEW_LIST, REMOVE_LIST} from './list-actions-creator'
+import lists from './list-initial-state'
 
-export default (state = listInitialState, action) => {
+export default (state = lists, action) => {
   switch (action.type) {
-    case ADD_LIST:
-      return {
+    case CREATE_NEW_LIST:
+      return [
         ...state, 
-        list: action.payload
-      };
+        action.payload
+      ]
+      case REMOVE_LIST:
+      const newArray = state.filter((v,i)=> state[i] !== state[action.payload])
+      return newArray
     default:
       return state
   }
-
 }

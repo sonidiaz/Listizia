@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState, useRef } from "react";
 import {Task} from './Task';
 import "../styles/List.css";
-// import Task from "./Task";
+
 
 export const List = props => {
 
@@ -15,7 +15,7 @@ export const List = props => {
 
   const createTask = () => {
     const newTask = [...tasks, task];
-    if(inputTask.current.value != ''){
+    if(inputTask.current.value !== ''){
       inputTask.current.value = '';
       setTasks(newTask)
     }

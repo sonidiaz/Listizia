@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import list from './list/list-reducer'
+import lists from './list/list-reducer'
 
-
-const reducers = combineReducers(
-  list
+const reducers = combineReducers({
+    lists
+  }
 )
 
 export default reducers
